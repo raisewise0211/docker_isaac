@@ -53,7 +53,7 @@ RUN pip install --no-cache-dir \
     scikit-learn
 # ROS 2 environment setting
 RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc &&\
-    echo "source ~/ros2_ws/install/setup.sh" >> ~/.bashrc &&\
+    echo "source /install/setup.sh" >> ~/.bashrc &&\
     echo "source /usr/share/gazebo/setup.sh" >> ~/.bashrc &&\
     echo "alias sb='source ~/.bashrc'" >> ~/.bashrc &&\
     echo "alias sds='source ~/ros2_ws/install/setup.bash'" >> ~/.bashrc &&\

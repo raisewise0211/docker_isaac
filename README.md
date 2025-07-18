@@ -102,7 +102,7 @@ cb          # colcon build --symlink-install
 ### 1. Isaac Sim 실행
 ```bash
 # 컨테이너 내부에서
-isaac-sim
+./runapp.sh
 ```
 
 ### 2. ROS2 환경 설정
